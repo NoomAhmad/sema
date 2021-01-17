@@ -172,7 +172,7 @@ a {
 }
 
 #curve{
-  width: 100%;
+  width: 99%;
   height: 370px;
   top: 5%;
   left:0;
@@ -406,7 +406,6 @@ div.back {
   flex-direction: column;
   width:34%;
   padding: 20px;
-  padding-right: 90px;
   align-items: flex-start;
   justify-content: start;
   
@@ -417,7 +416,6 @@ div.back {
   flex-direction: column;
   width: 33%;
   padding: 20px;
-  padding-right: 90px;
   align-items: flex-start;
   justify-content: start;
 }
@@ -427,7 +425,6 @@ div.back {
   flex-direction: column;
   width: 33%;
   padding: 20px;
-  padding-right: 90px;
   align-items: flex-start;
   justify-content: start;
 }
@@ -505,7 +502,10 @@ div.back {
 
 /* for tablet or medium devices*/
 @media (max-width: 1170px){
-
+  #curve{
+      transform: rotate(2deg);
+      width:99%;
+   }
   .cover .bigTitle {
     font-size: 30px;
     padding: 22px;
@@ -579,7 +579,10 @@ div.back {
 
 /* for mobile or small devices*/
 @media (max-width: 850px){
-  
+  #curve{
+      transform: rotate(0deg);
+      width:100%;
+   }
   .cover{
     height: 480px;
   }
@@ -668,6 +671,7 @@ div.back {
   width:100%;
   align-items: center;
   justify-content: center;
+  padding: 0px;
 }
 
 .footer .middle {
@@ -676,6 +680,7 @@ div.back {
   width: 100%;
   align-items: center;
   justify-content: center;
+  padding: 0px;
 }
 
 .footer .left {
@@ -684,6 +689,7 @@ div.back {
   width: 100%;
   align-items: center;
   justify-content: center;
+  padding:0px;
   padding-top: 30px;
 }
 
