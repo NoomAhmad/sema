@@ -92,7 +92,7 @@ textarea{
 
 /* for tablet or medium devices*/
 @media (max-width: 1170px){
-    input[type=email], input[type=text],input[type=tel]{
+    input[type=email], input[type=text],input[type=tel] ,textarea{
         width: 60%;
     }
     
@@ -107,7 +107,7 @@ textarea{
 
 /* for mobile or small devices*/
 @media (max-width: 850px){
-    input[type=email], input[type=text],input[type=tel]{
+    input[type=email], input[type=text],input[type=tel], textarea{
         width: 80%;
     }
 
