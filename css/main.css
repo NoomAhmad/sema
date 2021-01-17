@@ -197,6 +197,7 @@ a {
   border-top: #888 2px solid;
   text-align: left;
   padding: 20px;
+  text-algin:center;
   color:#888;
   z-index: -1;
 }
