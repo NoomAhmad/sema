@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+
+  <!-- CSS here -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/about.css">
+  <title>سيما للتسويق الإلكتروني | انضم لعائلتنا</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="index.html" class="logo">سيما</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li class="menu-choice"><a href="index.html">الرئيسية</a></li>
+      <li class="menu-choice"><a href="#footer">تواصل معنا</a></li>
+      <li class="social-top"><a href="https://www.facebook.com/DalilAmthal/" class="fab fa-facebook"
+          target="_blank"></a></li>
+      <li class="social-top"><a href="https://twitter.com/dalilamthal" class="fab fa-twitter" target="_blank"></a></li>
+      <li class="social-top"><a href="https://t.me/dalilamthal" class="fab fa-telegram" target="_blank"></a></li>
+      <li class="social-top"><a href="https://www.instagram.com/dalilamthal" class="fab fa-instagram"
+          target="_blank"></a></li>
+      <li class="social-top"><a href="https://www.snapchat.com/add/dalilamthal" class="fab fa-snapchat"
+          target="_blank"></a></li>
+    </ul>
+  </header>
+
+    <div class="brief">
+       <h2>من هم عائلة سيما</h2>
+    </div>
+
+    <div class="userForm">
+    <form method="POST" action="" id="myForm">
+      <h2 class="Title">انضم لعائلتنا</h2>
+      <input type="text" id="fullName" name="fullName" class="form-control form-control-lg" placeholder="الاسم الثلاثي"
+        required>
+      <input type="email" id="email" name="email" placeholder="البريد الإلكتروني" required>
+      <input type="tel" id="phone" name="phone" placeholder="رقم الجوال" required>
+
+      <input type="file" id="actual-btn" hidden />
+      <label class="label" for="actual-btn">أرفق سيرتك الذاتية</label>
+      <span id="file-chosen">لم يتم إختيار ملف</span><br />
+      <input type="submit" id="btn" value="إرسال">
+    </form>
+  </div>
+
+
+  <!--footer-->
+  <div class="footer" id="footer">
+    <div class="right">
+      <h4>من نحن</h4>
+      <p>شركة سيما............</p>
+    </div>
+
+    <div class="middle">
+      <h4>الموقع الجغرافي</h4>
+      <span><i class="fas fa-map-marker-alt icon"></i><a href="https://g.page/DalilAmthal?share">طريق الملك عبدالله
+          الفرعي، بئر عثمان</a></span>
+      <h4>اتصل بنا</h4>
+      <span><i class="fas fa-phone icon"></i><a href="https://wa.me/966595841441" target="_blank">0595841441</a></span>
+      <h4>إيميل</h4>
+      <span><i class="far fa-envelope icon"></i><a href="mailto:dalilamthal@gmail.com">dalilamthal@gmail.com</a></span>
+    </div>
+
+    <div class="left">
+      <h3>تابعونا</h3>
+      <div class="social">
+        <a href="https://www.facebook.com/DalilAmthal/" class="fab fa-facebook" target="_blank"></a>
+        <a href="https://twitter.com/dalilamthal" class="fab fa-twitter" target="_blank"></a>
+        <a href="https://t.me/dalilamthal" class="fab fa-telegram" target="_blank"></a>
+        <a href="https://www.instagram.com/dalilamthal" class="fab fa-instagram" target="_blank"></a>
+        <a href="https://www.snapchat.com/add/dalilamthal" class="fab fa-snapchat" target="_blank"></a>
+      </div>
+    </div>
+
+  </div>
+    <div  class="copyright">
+    <p> جميع الحقوق محفوظه &copy; &nbsp;<span id="year"></span>&nbsp;<a href="index.php">للدليل الأمثل العقاري</a></p>
+    <script>document.getElementById("year").innerHTML=(new Date().getFullYear())</script>
+  </div>
+
+</body>
+
+
+</html>
