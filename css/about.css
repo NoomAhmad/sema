@@ -8,6 +8,10 @@ body {
     direction: rtl;
 }
 
+.header .menu-btn:checked ~ .menu {
+    max-height: 123px;
+}
+
 .userForm{
     height: 600px;
 }

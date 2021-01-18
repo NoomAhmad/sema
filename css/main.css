@@ -111,7 +111,7 @@ a {
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 248px;
+  max-height: 246px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -611,13 +611,11 @@ div.back {
   
   .cover .bigTitle {
     font-size: 22px;
-    padding:12px 22px;
     margin: 8px 22px;
   }
 
   .cover .inTitle{
     font-size: 18px;
-    padding: 12px 22px;
     margin:5px 18px;
   }
   .info{
