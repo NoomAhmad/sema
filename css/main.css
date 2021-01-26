@@ -181,6 +181,9 @@ a {
 }
 
 @media(max-width: 850px){
+ .header{
+    width: 100%;
+  }
   .header ul{
     display: none;
   }
@@ -189,6 +192,9 @@ a {
   }
 }
 @media(max-width:1200px){
+   .header{
+    width: 100%;
+  }
   .header .social-top {
     display: none;
   }
