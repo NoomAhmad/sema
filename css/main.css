@@ -238,8 +238,6 @@ a {
   font-size:40px;
   text-align: center;
   margin-top: 200px;
-  padding: 0px;
-  margin-bottom: 0;
   z-index: 2;
 }
 
@@ -276,7 +274,7 @@ a {
 .info iframe{
   margin:22px;
   margin-top: 50px;
-  width:760px;
+  width:80%;
   height:326px;
 }
 
