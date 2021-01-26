@@ -59,7 +59,9 @@ a {
   font-size: 1.7em;
   padding: 10px 20px;
   text-decoration: none;
+  color: rgb(255, 140, 159);
 }
+
 
 /* menu */
 .header .menu {
@@ -176,6 +178,11 @@ a {
     background-color: transparent;
   }
 
+  .header .logo:focus{
+    border: none;
+    color: #111;
+  }
+
   
 }
 
@@ -240,7 +247,6 @@ a {
   color: rgb(255, 140, 159);
   position: absolute;
   top:48px;
- 
 }
 
 .bigTitle, h1,h2,.inTitle ,.smallTitle{
@@ -530,6 +536,10 @@ a {
     font-size: 18px;
   }
 
+  .bi{
+    top:45px;
+  }
+
   .info iframe{
     width:70%;
     margin: 0;
@@ -601,6 +611,10 @@ a {
 
   .info .more{
     font-size: 18px;
+  }
+
+  .bi{
+    top:45px;
   }
 
   .info iframe{
