@@ -573,10 +573,12 @@ a {
   /*cover*/
   .cover{
     height: 700px;
+    width:100%;
+    
   }
 
   .cover img{
-    width: 100%;
+    width: 80%;
   }
   
   .cover .bigTitle {
