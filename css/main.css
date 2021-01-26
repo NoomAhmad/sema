@@ -560,7 +560,7 @@ a {
 @media (max-width: 850px){
   /*menu*/
   .header{
-    display:none;
+    width: 100%;
   }
   .header ul{
     display: none;
