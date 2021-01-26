@@ -9,31 +9,24 @@ body {
     color:#333;
 }
 
-.header .menu-btn:checked ~ .menu {
-    max-height: 123px;
-}
-
-.userForm{
-    height: 730px;
-    border-top: 1px solid #eee;
-    padding-top: 50px;
-}
 
 h3{
     text-align: center;
 }
-
+/*brief*/
 .brief{
     height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top:100px
 }
 
 .brief .Title{
     color:#888;
-    padding: 22px 100px ;
+    padding: 12px 100px ;
+    margin-top: 0px;
     line-height:2.5;
     text-align: center;
 }
@@ -41,6 +34,13 @@ h3{
 .brief .bigTitle{
     color:rgb(255, 140, 159);
     text-align: center;
+}
+
+/*form*/
+.userForm{
+    height: 730px;
+    border-top: 1px solid #eee;
+    padding-top: 50px;
 }
 
 form{
@@ -108,8 +108,27 @@ textarea{
     text-align: center;
 }
 
-/* for tablet or medium devices*/
+/*for tablet or medium devices*/
 @media (max-width: 1170px){
+    /*brief*/
+    .brief{
+        height: 500px;
+        padding-top:100px
+    }
+
+   .brief .Title{
+        color:#888;
+        padding: 22px 35px ;
+        line-height:2.5;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .brief .bigTitle{
+        font-size: 30px;
+    }
+    
+    /*form*/
     input[type=email], input[type=text],input[type=tel],textarea{
         width: 60%;
     }
@@ -125,6 +144,24 @@ textarea{
 
 /* for mobile or small devices*/
 @media (max-width: 850px){
+    /*brief*/
+    .brief{
+        height: 500px;
+        padding-top:70px
+    }
+
+   .brief .Title{
+        color:#888;
+        padding: 12px 35px ;
+        margin-top: 0px;
+        line-height:2.5;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .brief .bigTitle{
+        font-size: 24px;
+    }
     input[type=email], input[type=text],input[type=tel],textarea{
         width: 80%;
     }
